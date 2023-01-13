@@ -29,6 +29,6 @@ local Tab = Window:CreateTab("Tradescam", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
 	Name = "Tradescam",
 	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Andre8657/Scripts/main/Crash%20Script", true))()-- The function that takes place when the button is pressed
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Andre8657/Scripts/main/Crashscript", true))()-- The function that takes place when the button is pressed
 	end,
 })
